@@ -12,10 +12,10 @@ body {
 }
 .container {
     text-align: center;
-    width: 90%;
+    width: 50%;
     background: rgba(0, 0, 0, 0.5);
     padding: 1rem;
-    margin: 1rem;
+    margin: 8px;
     border-radius: 10px;
 }
 img {
@@ -59,4 +59,16 @@ button {
     background-color: #7b241c;
     color: #f5b7b1;
     border: 0px;
+}
+
+/* Media */
+@media (max-width: 768px) {
+    .container {
+        width: 85%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    img{
+        width: 100%;
+    }
 }
